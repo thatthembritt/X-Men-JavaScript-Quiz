@@ -1,0 +1,89 @@
+//event for clicking button "start" 
+
+//questions (5-10 total)
+
+//implement timer last 
+//timer should subtract time if question is answered incorrectly 
+
+//final score at end 
+//need to store it locally so that previous high scores can be accessed 
+
+
+//var quizQuestion
+
+//addEventListener("click", function()
+//if (answer === "true") {
+
+
+else {
+
+}
+
+
+}
+
+
+// define your questions
+var questions = [
+    { 
+        question: "what is your favorite color?",
+        answer: 'violet',
+        options: ['blue', 'violet', 'orange', 'yellow']
+    },
+    {
+        question: 'how old is morgan freeman',
+        answer: 'immortal',
+        options: ['75', 'unknown', 'immortal', '77']
+    }
+];
+
+// put a start button in the html 
+// add an event listener for start button 
+// when someone clicks the listener
+// -- put the first question on the screen
+// -- have static html already coded
+// -- reach into the html and grab the element that i want
+// -- insert my question into that element
+
+//first question 
+
+//var= quizQuestions
+
+
+
+//questions can be listed in both JavaScript and HTML 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

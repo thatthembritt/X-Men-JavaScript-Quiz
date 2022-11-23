@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>X-Men Quiz!</title>
+  </head>
+  <body>
+    <div id="countdown" style="display: none"></div>
+    <button id="startButton">Start Quiz</button>
+    <div id="quizQuestions" style="display: none">
+      <h1 id="questionHeading">
+        How much wood could a woodchuck chuck if a woodchuck could chuck wood?
+      </h1>
+      <input type="checkbox" id="answer1" value="7" />
+      <label id="label1" for="answer1"> 7</label><br />
+
+      <input type="checkbox" id="answer2" value="9" />
+      <label id="label2" for="answer2"> 9</label><br />
+
+      <input type="checkbox" id="answer3" value="10" />
+      <label id="label3" for="answer3"> 10</label><br />
+
+      <input type="checkbox" id="answer4" value="12" />
+      <label id="label4" for="answer4"> 12</label><br />
+    </div>
+
+    <div id="highScores" style="display: none">
+      <h1 id="highScores">Score Here</h1>
+    </div>
+
+    <div id="retryQuiz" style="display: none">
+      <button id="retryQuizButton" style="display: none">Retry Quiz!</button>
+    </div>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>

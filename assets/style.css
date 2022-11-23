@@ -1,0 +1,26 @@
+body {
+  font-family: "Patrick Hand", cursive;
+  background-color: blue;
+  font-weight: bold;
+  color: yellow;
+  font-size: 40px;
+  text-align: center;
+}
+
+#retryQuiz {
+  text-align: center;
+}
+
+#retryQuizButton {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+}
+
+#startButton {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+}
